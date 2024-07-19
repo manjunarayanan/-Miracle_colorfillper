@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 2px 2px 4px #aaa;
+    margin-bottom: 20px;
+}
+
+#color {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+#btn {
+    font-size: 2em;
+    padding: 20px;
+    border-radius: 50%;
+    border: none;
+    background-color: yellow;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+#btn:hover {
+    transform: scale(1.1);
+    background-color: lightblue;
+}
+
